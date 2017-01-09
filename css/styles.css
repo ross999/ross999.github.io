@@ -1,5 +1,4 @@
 /* =HEADER */
-
 header { background: #0F4576; }
 #hero { padding: 3rem 0 1em; background: #1C5C98; background: radial-gradient(circle at 50% 35%, #186baf, #174c7c); }
 
@@ -11,7 +10,7 @@ h1 { color: #FFF; padding-top: 1.5rem; border-top: 4px solid #1584D9; margin: 1.
 .heroImg { padding: 2.5rem 0 1rem; max-width: 280px; display: block; margin: 0 auto; }
 .logo { display: block; margin: 0 auto; max-width: 260px; }
 
-
+/* -Access Dropdown Menu */
 #accessDrop { width: 300px; padding: 20px 0 0 20px; background: #FFF; background: rgba(255, 255, 255, .98); box-shadow: 0 4px 15px 0 rgba(0,0,0,0.5); border-radius: 1px; border-top: 4px solid #009464; z-index: 1111; }
 #accessDrop { position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; top: 50px; }
 #accessDrop h4 { font-size: 2.3rem; margin-bottom: 1rem; width: 260px; }
@@ -20,9 +19,11 @@ h1 { color: #FFF; padding-top: 1.5rem; border-top: 4px solid #1584D9; margin: 1.
 #accessDrop form { margin: 0 0 1.5rem; width: 260px; }
 #accessDrop input { margin: 0; }
 #accessDrop input[type="submit"] { background: #00A972; border: 1px solid #00A972; width: 44px; padding: 0; text-align: center; color: #FFF; float: right; }
-#accessDrop .code { width: 218px; border-right: 0; border-radius: 0; font-size: 22px; color: #444; }
+#accessDrop .code { width: 218px; border-right: 0; border-radius: 0; font-size: 22px; color: #222; }
 #accessDrop .code:focus { border-color: #00A972; }
 .close-btn { margin-bottom: 20px; display: block; }
+
+#accessDrop .errors p { color: #D4192D; font-weight: 600; }
 
 
 /* =TOUTS */
@@ -119,13 +120,6 @@ header { height: 100px; }
 .btn3 { display: inline-block!important; }
 }
 
-.backdrop {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1040;
-    background-color: #000;
-    opacity:  0;
-}
+.backdrop { position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 1040; background-color: #000; opacity:  0; }
+
+
