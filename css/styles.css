@@ -1,0 +1,131 @@
+/* =HEADER */
+
+header { background: #0F4576; }
+#hero { padding: 3rem 0 1em; background: #1C5C98; background: radial-gradient(circle at 50% 35%, #186baf, #174c7c); }
+
+.btnAccess { width: 100%; box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.45); height: 50px; line-height: 50px; font-weight: bold; margin-bottom: 0; color: #00AA73; cursor: pointer; }
+.btnLogin { width: 100%; text-align: center; display: block; height: 50px; line-height: 50px; font-weight: bold; color: #C4E6FF!important; letter-spacing: .1rem; }
+
+h1 { color: #FFF; padding-top: 1.5rem; border-top: 4px solid #1584D9; margin: 1.5rem 0 0; text-align: center; }
+
+.heroImg { padding: 2.5rem 0 1rem; max-width: 280px; display: block; margin: 0 auto; }
+.logo { display: block; margin: 0 auto; max-width: 260px; }
+
+
+#accessDrop { width: 300px; padding: 20px 0 0 20px; background: #FFF; background: rgba(255, 255, 255, .98); box-shadow: 0 4px 15px 0 rgba(0,0,0,0.5); border-radius: 1px; border-top: 4px solid #009464; z-index: 1111; }
+#accessDrop { position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; top: 50px; }
+#accessDrop h4 { font-size: 2.3rem; margin-bottom: 1rem; width: 260px; }
+#accessDrop p { color: #555; font-size: 1.3rem; margin: 0 0 20px; width: 260px; }
+
+#accessDrop form { margin: 0 0 1.5rem; width: 260px; }
+#accessDrop input { margin: 0; }
+#accessDrop input[type="submit"] { background: #00A972; border: 1px solid #00A972; width: 44px; padding: 0; text-align: center; color: #FFF; float: right; }
+#accessDrop .code { width: 218px; border-right: 0; border-radius: 0; font-size: 22px; color: #444; }
+#accessDrop .code:focus { border-color: #00A972; }
+.close-btn { margin-bottom: 20px; display: block; }
+
+
+/* =TOUTS */
+#touts { padding: 3rem 0; }
+#touts .column { margin-bottom: .5rem; }
+#touts h2 { text-align: center; margin: 0 0 3rem; }
+#touts h3 { padding-bottom: 1.2rem; border-bottom: 3px solid #222; margin: 1.2rem 0 1.5rem; }
+
+
+/* =LEARN */
+#learn { padding: 3rem 0 4rem; background: #222; }
+#learn img { width: 95%; height: auto; display: block; margin: 0 auto; }
+#learn h2 { text-align: center; margin: 0 0 3rem; color: #FFF; }
+.btn1 { margin: 2rem auto 1rem; color: #FFF!important; border-color: #FFF; background: transparent; }
+.btn1:hover { background: #444; }
+.center { text-align: center; margin: auto; }
+#bLearn { background: #222; }
+
+
+
+/* =FOOTER */
+footer { background: #136BA7; padding: 2rem 0 1.75rem; color: #FFF; }
+footer a { color: #FFF!important; text-decoration: underline!important; }
+footer p { margin-bottom: 0; font-size: 1.3rem; }
+
+
+/* Bigger than 1px */
+@media (min-width: 1px) {
+
+.rightInfo { display: none; }
+
+}
+
+
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+
+h1 { text-align: left; font-size: 2.2rem; }
+.heroImg { max-width: 260px; }
+.logo { margin: 0; max-width: 230px; }
+
+#touts h2 { font-size: 2.2rem; }
+#touts h3 { font-size: 1.8rem; }
+#learn { padding: 3rem 0 2rem; }
+
+}
+
+
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+#hero { padding: 4rem 0 1em; }
+h1 { padding-top: 1.5rem; margin: 1.5rem 0 0; text-align: left; font-size: 2.4rem; }
+.heroImg { max-width: 300px; }
+.logo { max-width: 260px; }
+
+#touts h2 { font-size: 2.4rem; }
+#touts h3 { font-size: 2.2rem; }
+
+}
+
+
+
+/* Bigger than 850 */
+@media (min-width: 850px) {
+h1 { font-size: 3.2rem; }
+.heroImg { padding: 2.5rem 0 1rem; max-width: 500px; }
+.logo { display: block; margin: 5rem 0 0; max-width: 300px; }
+
+header { height: 100px; }
+.rightInfo { display: block; }
+
+#accessDrop { position: absolute; margin-left: 0; margin-right: 0; left: 0; right: 0; top: 80px; }
+
+
+
+.btnAccess { width: auto; height: 44px; line-height: 44px; padding: 0 2rem; float: left; font-weight: 700; }
+.btnLogin { width: auto; float: left; text-align: left; display: block; margin: 0 0 0 3rem; font-weight: 700; }
+
+.leftInfo { float: left; margin-top: 28px; }
+
+.rightInfo { display: block; float: right; height: 40px; line-height: 40px; margin-top: 30px; }
+.rightInfo a { color: #FFF; letter-spacing: .1rem; }
+.rightInfo span { display: block; float: right; }
+.rightInfo img { display: block; float: right; margin-left: 20px; }
+
+#touts { padding: 4rem 0 2em; }
+#touts h2 { font-size: 3.2rem; }
+
+#learn { padding-bottom: 4rem; }
+.btn1 { display: none; }
+.btn2 { display: none; }
+.btn3 { display: inline-block!important; }
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    opacity:  0;
+}
