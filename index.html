@@ -33,7 +33,7 @@
 	<div class="container container100">
 		<section>
 			<div class="leftInfo">
-				<a class="button btnAccess" href="#" id="btnAccess">GUEST ACCESS <span>&#9662;</span></a>
+				<a class="button btnAccess" href="#" id="btnAccess">GUEST ACCESS <span>&#9662</span></a>
 				<a class="btnLogin" href="#">STAFF &amp; ADMIN LOGIN &raquo;</a>
 			</div>
 
@@ -65,6 +65,7 @@
 				<a href="http://energymetricsllc.com/" target="_blank"><img src="images/logo-EnergyMetrics.png" alt="Energy Metrics IoT Power" width="130"></a>
 				<span><a href="http://energymetricsllc.com/" target="_blank">POWERED BY</a></span>
 			</div>
+		</section>
 		</section>
 	</div>
 </header>
@@ -110,7 +111,6 @@
 				<h3>Environmental Advocacy</h3>
 				<p>We like to tout comfort and convenience but we also like guests to be aware of the good they&rsquo;re doing to help reduce energy waste. Every bit makes a difference!</p>
 			</div>
-		</div>
 	</div>
 </section>
 
@@ -140,7 +140,7 @@
 
 		$(document).on("click", function(e) {
 			if($(e.target).closest("#accessDrop").length === 0) {
-				$("#accessDrop").slideUp();
+				$("#accessDrop").fadeOut();
 			}
 		});
 
